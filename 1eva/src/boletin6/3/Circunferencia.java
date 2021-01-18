@@ -20,7 +20,7 @@ import java.util.Scanner;
  * @author cambes
  */
 
-
+package boletin6.3;
 public class Circunferencia {
 
     private double radio;

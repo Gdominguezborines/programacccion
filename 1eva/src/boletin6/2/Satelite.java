@@ -29,6 +29,8 @@ System.out.println (“ o satelite atopase  no paralelo “ paralelo + “meridi
  *
  * @author cambes
  */
+package boletin6.2;
+
 public class Satelite {
     private double meridiano ;
     private double paralelo;

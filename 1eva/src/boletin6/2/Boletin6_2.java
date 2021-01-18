@@ -31,6 +31,8 @@ import java.util.Scanner;
  *
  * @author cambes
  */
+package boletin6.2;
+
 public class Boletin6_2 {
 
     public static void main(String[] args) {

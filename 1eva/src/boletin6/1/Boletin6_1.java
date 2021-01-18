@@ -22,6 +22,8 @@ Crea a clase Boletin 6_1 para comprobar que o programa se executa ben .dandolle 
 import java.util.Scanner;
 
 
+package boletin6.1;
+
 public class Boletin6_1 {
 
     

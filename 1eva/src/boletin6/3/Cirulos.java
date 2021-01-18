@@ -18,6 +18,8 @@ métodos : *   constructores, sen e con parámetros
 
  * @author cambes
  */
+package boletin6.3;
+
 public class Cirulos {
 
     
