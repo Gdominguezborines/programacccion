@@ -18,11 +18,13 @@ public void frenar (int menos).Este método diminue a velocidade na cantidade me
 Crea a clase Boletin 6_1 para comprobar que o programa se executa ben .dandolle os valores que precises.
 */
 
+package boletin6.1;
+
 
 import java.util.Scanner;
 
 
-package boletin6.1;
+
 
 public class Boletin6_1 {
 

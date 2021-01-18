@@ -10,6 +10,8 @@
  */
 
 package boletin6.1;
+
+
 public class Coche {
     
          
