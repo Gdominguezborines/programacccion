@@ -11,7 +11,7 @@ public class Mamifero implements IPodeCaminar{
     @Override
     public void podeCaminar(){
         
-        System.out.println("Es un mamifero");
+        System.out.println("Puede caminar");
     }
     
     
