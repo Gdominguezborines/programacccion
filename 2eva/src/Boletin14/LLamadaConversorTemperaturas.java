@@ -17,7 +17,7 @@ De xeito que unha persoa teclea a temperatura, en graos centigrados, e o convers
 
    Este método non tratara a excepción . A lanzará ao método de chamada
 */
-package boletin14;
+package Boletin14;
 
 import javax.swing.JOptionPane;
 

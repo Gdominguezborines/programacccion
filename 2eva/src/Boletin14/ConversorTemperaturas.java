@@ -1,5 +1,5 @@
 
-package boletin14;
+package Boletin14;
 
 /**
  * @author cambes
