@@ -101,7 +101,7 @@ public class Garaje {
                 }else    
                       JOptionPane.showMessageDialog(null,"Datos incorrectos");
                 
-                }while (tiempoCoche<0);
+                }while (tiempoCoche<=0);
              float dinero=Float.parseFloat(JOptionPane.showInputDialog(null,"Introduce dinero para pagar el estaccionamiento, el precio es de= "+Math.round(precioAparcar*100.0)/100.0+" E"));
             float vuelta =dinero-precioAparcar;
              
