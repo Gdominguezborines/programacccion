@@ -20,7 +20,6 @@ De xeito que unha persoa teclea a temperatura, en graos centigrados, e o convers
 package Boletin14;
 
 import javax.swing.JOptionPane;
-
 /**
  * @author cambes
  */
@@ -39,17 +38,23 @@ public class LLamadaConversorTemperaturas {
     
         
         try {
-                float temp=Float.parseFloat(JOptionPane.showInputDialog("Introduce la temperatura en grados centrigados para comvertir a Farenheit"));
-           
-                 System.out.println("Los grados centigrados introducidos son "+temp+"ºC y en Farenheit son "+Temp1.centigrAFarenh(temp)+"F" );
-            
+             float temp,temp2;  
+                            
+                  temp=Float.parseFloat(JOptionPane.showInputDialog("Introduce la temperatura en grados centrigados para comvertir a Farenheit"));
+               //llamo al metodo pasando la temperatura     
+            System.out.println("Los grados centigrados "+temp+ " en faranheit son "+  Temp1.centigrAFarenh(temp)+" F");
+               
+                              
+            temp2=Float.parseFloat(JOptionPane.showInputDialog("Introduce la temperatura en grados centrigados para convertir a REamur"));
+            //llamo al metodo pasando la temperatura
+                
+                    Temp2.centiAReamur(temp2);
+                
+                       
+                 
             } catch (TemperaturaErradaExcepcion e) {
                     System.out.println(e.getMessage());
                    }
-        //capturo la segunda tempratura
-            float temp2=Float.parseFloat(JOptionPane.showInputDialog("Introduce la temperatura en grados centrigados para convertir a REamur"));
-       //llamo al metodo pasando la temperatura
-         Temp2.centiAReamur(temp2);
       
          //con esto saco si =0   no = 1 y asi se realizara el bucle o no
                respuesta = JOptionPane.showConfirmDialog(null, "¿Quieres volver a ejecutar el conversor de temperatura?", "Elige tu opcion", JOptionPane.YES_NO_OPTION,3);
