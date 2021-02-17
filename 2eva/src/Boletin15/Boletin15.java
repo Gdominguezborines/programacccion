@@ -1,10 +1,9 @@
-
 package Boletin15;
 
 /**
- *
  * @author Cambes
  */
+
 public class Boletin15 {
 
     /**
@@ -12,13 +11,13 @@ public class Boletin15 {
      */
     public static void main(String[] args) {
         
-        //int[]numeros ={(int)(Math.random()*(50-1)+1)};
+        int[]numeros ={(int)(Math.random()*(50-1)+1)};
         
         Metodos obx= new Metodos();
         
         obx.amosarArray(numeros);     //1  ejer
-        obx.notasArray();                  //2  ejer
-        obx.nomeArray();                   //3  ejer
+     //   obx.notasArray();           //2  ejer
+        obx.nomeArray();              //3  ejer
 
         validaDni obx3 = new validaDni();
         obx3.validaDNI();                   //4 ejer valida

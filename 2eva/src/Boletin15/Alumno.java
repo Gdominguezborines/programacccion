@@ -1,4 +1,4 @@
-package boletin15;
+package Boletin15;
 
 /**
  *

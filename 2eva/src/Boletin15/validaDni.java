@@ -1,5 +1,3 @@
-
-
 package Boletin15;
 
 import javax.swing.JOptionPane;

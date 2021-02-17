@@ -68,7 +68,7 @@ public class Metodos {
             
                 
         }
-        System.out.println("aprodos: "+countAprobado);
+        System.out.println("aprobados: "+countAprobado);
         System.out.println("suspensos: "+countSuspenso);
         int media;
         media=countMedia/notas.length;
@@ -185,7 +185,6 @@ public class Metodos {
        
        
     }
-     
-    
+
 
 }
