@@ -1,7 +1,4 @@
-
-
 package Boletin15;
-
 
 import javax.swing.JOptionPane;
 
@@ -38,10 +35,7 @@ public class Metodos {
             System.out.println("Aleatorio= "+numeros[i]);
         }
         
-        
-        
-        
-        
+
         
     }
     public void notasArray(){
@@ -99,11 +93,11 @@ public class Metodos {
      public void nomeArray(){
         
         Alumno[]Alumnos=new Alumno[5];
-         Alumnos[0] = new Alumno("pepe" , 4 ,  53127566);
-        Alumnos[1] = new Alumno("susana", 5 ,  43732425);
-        Alumnos[2] = new Alumno("noel" , 7 ,   53192684);
-        Alumnos[3] = new Alumno("maria" ,  10, 53568548);
-        Alumnos[4] = new Alumno("juan" ,1 ,    53156539);
+        Alumnos[0] = new Alumno("pepe" ,  4 ,   53127566);
+        Alumnos[1] = new Alumno("susana", 5 ,   43732425);
+        Alumnos[2] = new Alumno("noel" ,  7 ,   53192684);
+        Alumnos[3] = new Alumno("maria" , 10,   53568548);
+        Alumnos[4] = new Alumno("juan" ,  1 ,   53156539);
         
 
 

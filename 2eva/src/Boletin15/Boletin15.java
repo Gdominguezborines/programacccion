@@ -14,17 +14,14 @@ public class Boletin15 {
         
         //int[]numeros ={(int)(Math.random()*(50-1)+1)};
         
-       // Metodos obx= new Metodos();
+        Metodos obx= new Metodos();
         
-       // obx.amosarArray(numeros);
-        //obx.notasArray();
-        
-        //obx.nomeArray();
-      
-        /* ValidarDni obx1=new ValidarDni();
-        System.out.println(obx1.letraDNI());*/
-    validaDni obx3 = new validaDni();
-    obx3.validaDNI();
+        obx.amosarArray(numeros);     //1  ejer
+        obx.notasArray();                  //2  ejer
+        obx.nomeArray();                   //3  ejer
+
+        validaDni obx3 = new validaDni();
+        obx3.validaDNI();                   //4 ejer valida
     }
     
 }
