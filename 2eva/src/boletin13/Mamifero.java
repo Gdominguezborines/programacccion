@@ -4,7 +4,7 @@ package boletin13;
  *
  * @author cambes
  */
-public class Mamifero implements IPodeCaminar{
+public class Mamifero extends Animales implements IPodeCaminar{
     
     
     

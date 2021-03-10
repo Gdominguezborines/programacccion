@@ -1,4 +1,4 @@
-package boletin_12;
+package Boletin_12;
 
 import javax.swing.JOptionPane;
 
@@ -20,12 +20,12 @@ public class Garaje {
     public Garaje() {
     }
 
-    public Garaje(boletin_12.Coches coche){
+    public Garaje(Boletin_12.Coches coche){
         Coche=coche;
     }
     
     
-    public Garaje(float tiempo,boletin_12.Coches coche) {
+    public Garaje(float tiempo, Boletin_12.Coches coche) {
         this.tiempo = tiempo;
         Coche = coche;
     }
@@ -35,7 +35,7 @@ public class Garaje {
         this.tiempo = tiempo;
     }
     
-    public void setCoche(boletin_12.Coches Coche) {
+    public void setCoche(Boletin_12.Coches Coche) {
         this.Coche = Coche;
     }
     
@@ -50,7 +50,7 @@ public class Garaje {
         return tiempo;
     }
 
-    public boletin_12.Coches getCoche() {
+    public Boletin_12.Coches getCoche() {
         return Coche;
     }
 
