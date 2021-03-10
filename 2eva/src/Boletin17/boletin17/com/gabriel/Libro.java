@@ -10,17 +10,17 @@ public class Libro implements Comparable<Libro>{
     private String autor;
     private String ISBN;
     private float prezo;
-    private int Nunidades;
+    private int Unidades;
 
     public Libro() {
     }
 
-    public Libro(String titulo, String autor, String ISBN, float prezo, int Nunidades) {
+    public Libro(String titulo, String autor, String ISBN, float prezo, int Unidades) {
         this.titulo = titulo;
         this.autor = autor;
         this.ISBN = ISBN;
         this.prezo = prezo;
-        this.Nunidades = Nunidades;
+        this.Unidades = Unidades;
     }
 
     public String getTitulo() {
@@ -55,17 +55,17 @@ public class Libro implements Comparable<Libro>{
         this.prezo = prezo;
     }
 
-    public int getNunidades() {
-        return Nunidades;
+    public int getUnidades() {
+        return Unidades;
     }
 
-    public void setNunidades(int Nunidades) {
-        this.Nunidades = Nunidades;
+    public void setUnidades(int Unidades) {
+        this.Unidades = Unidades;
     }
 
     @Override
     public String toString() {
-        return "titulo=" + titulo + ", autor=" + autor + ", ISBN=" + ISBN + ", prezo=" + prezo + ", Nunidades=" + Nunidades;
+        return "Titulo=" + titulo + ", Autor=" + autor + ", ISBN=" + ISBN + ", Prezo=" + prezo + ", Unidades=" + Unidades;
     }
 
     @Override
