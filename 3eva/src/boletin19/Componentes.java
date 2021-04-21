@@ -39,7 +39,7 @@ public void iniciar (){
        
      //cualidades del marco  
       
-       marco.setSize(800,600);
+
        marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        marco.setSize(800,800);
        marco.setLocationRelativeTo(null);
