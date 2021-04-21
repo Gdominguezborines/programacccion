@@ -35,11 +35,11 @@ public void iniciar (){
        campoPassw = new JTextField();
        etiNome= new JLabel("NOME:");
        etiPassw = new JLabel("Password:");
-       areaTexto = new JTextArea();
+       areaTexto = new JTextArea("Area Texto");
        
      //cualidades del marco  
       
-
+       marco.setVisible(true);
        marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        marco.setSize(800,800);
        marco.setLocationRelativeTo(null);
@@ -90,9 +90,7 @@ public void iniciar (){
       
        
        marco.add(panel);
-       marco.setLocationRelativeTo(null);
-       marco.setVisible(true);
-       marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
        
        
 }    
